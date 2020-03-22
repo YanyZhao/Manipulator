@@ -1,0 +1,16 @@
+# Map 2
+#
+# This map is a narrow passageway
+#
+# usage:
+# element x_min y_min z_min x_max y_max z_max
+#
+# you must specify the boundary of your map using the 'boundary' element
+# and can optionally include obstacles using the 'block' element
+
+boundary -400.0 -400.0 -200.0 400.0 400.0 500.0
+
+block 150 60  -50.0 400 66.7  350.0  
+block 150 -66.7  -50.0 400 -60  350.0
+
+#block -300 -300 400 300 300 500
