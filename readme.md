@@ -1,4 +1,4 @@
-This zip files contains all the necessary functions for SRRT planner of Lynx robot. 
+This is a SRRT planner of Lynx robot(6-DoF manipulator). 
  - Main functions:
    -  Simulation function: runsim.m
    -  Generative function for static planning(main function): SRRT.m
