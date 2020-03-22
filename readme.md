@@ -15,3 +15,13 @@ This zip files contains all the necessary functions for SRRT planner of Lynx rob
 Those are helper functions either from p-code or m-code that I implemented in the former labs
 
 6 maps are included, however, only 4 of them are typical and reported in the results.
+
+- simulation results:
+
+  - comparison between random sample and epsilon-greedy sample:
+    ![](img/random.gif)
+    ![](img/epsilon_greedy.gif)
+
+  - comparison between raw and pruned path:
+    ![](img/before_prun.gif)
+    ![](img/after_prun.gif)
