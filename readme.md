@@ -30,6 +30,6 @@ To evaluate the smoothness of the planner, we simulated in different static maps
     
 To evaluate the dynamic performance of the planner, due to the fact that visualizing 3d moving obstacle in matlab is quite tricky, we implement it onto a planner dot robot navigating in changing environment and get the following result:
 
-![](img/dynamic_1.gif)
+- scenario 1: randomly moving door: ![](img/dynamic_1.gif)
 
-![](img/dynamic_2.gif)
+- scenario 2: tricky maze: ![](img/dynamic_2.gif)
