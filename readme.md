@@ -1,4 +1,4 @@
-This is a SRRT planner of Lynx robot(6-DoF manipulator). 
+This is a dynamic smoothed-RRT planner for Lynx robot(6-DoF manipulator). 
  - Main functions:
    -  Simulation function: runsim.m
    -  Generative function for static planning(main function): SRRT.m
@@ -11,12 +11,13 @@ This is a SRRT planner of Lynx robot(6-DoF manipulator).
    -  Node extending function: extend.m
    -  Collision detection function: DetCol.m
    -  Path optimization function: path_opt.m
+   
 - Utils:
 Those are helper functions either from p-code or m-code that I implemented in the former labs
 
-6 maps are included, however, only 4 of them are typical and reported in the results.
+To evaluate the smoothness of the planner, we simulated in different static maps:
 
-- simulation results:
+- static simulation results:
 
   - comparison between random sample and epsilon-greedy sample:
     ![](img/random.gif)
@@ -25,3 +26,8 @@ Those are helper functions either from p-code or m-code that I implemented in th
   - comparison between raw and pruned path:
     ![](img/before_prun.gif)
     ![](img/after_prun.gif)
+    
+To evaluate the dynamic performance of the planner, due to the fact that visualizing 3d moving obstacle in matlab is quite tricky, we implement it onto a planner dot robot navigating in changing environment and get the following result:
+
+![](img/scenario_1.gif)
+![](img/scenario_2.gif)
