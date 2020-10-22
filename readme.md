@@ -24,6 +24,7 @@ To evaluate the smoothness of the planner, we simulated in different static maps
     ![](img/epsilon_greedy.gif)
 
   - comparison between raw and pruned path:
+  
     ![](img/before_prun.gif)
     ![](img/after_prun.gif)
     
